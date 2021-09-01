@@ -43,7 +43,7 @@ repos:
         verbose: true
         args:
           - --score=y
-          - --disable=E0611,E0401,R0914,R0915,W0703,E1101,C0103,R0912,duplicate-code
+#           - --disable=E0611,E0401,R0914,R0915,W0703,E1101,C0103,R0912,duplicate-code
           - --const-naming-style=snake_case
           - --rcfile=.pylintrc
 
